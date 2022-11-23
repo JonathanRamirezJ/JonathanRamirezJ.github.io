@@ -17,7 +17,7 @@ import { BackgroundCover, TextCaption } from './Cover.styles';
 export const Cover = () => {
 
   return (
-    <div>
+    <div className='relative'>
       <BackgroundCover className='bg-local blur-sm'/>
       <TextCaption className='flex flex-col items-center'>
         <p className="text-3xl my-2 text-white">{NAME_USER}</p>
