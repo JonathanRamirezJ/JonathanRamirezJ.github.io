@@ -1,0 +1,134 @@
+.typewriter p {
+  overflow: hidden;
+  border-right: .30em solid white;
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .55s step-end infinite;
+  width: 230px;
+}
+
+.subtitle {
+  overflow: hidden;
+  border-right: .10em solid white;
+  white-space: nowrap; 
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .55s step-end infinite;
+  width: 320px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 230px }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.photo-me {
+  border: 10px solid white;
+}
+
+.photo-me-container {
+  position: relative;
+
+  span {
+    font-family: "Chalkduster";
+    font-size: 18px;
+    background: white;
+    display: inline-block;
+    color: black;
+    height: 40px;
+    width: 100%;
+  }
+}
+
+.font-family-chalkduster {
+  font-family: "Chalkduster";
+}
+
+.skills-section-1 {
+  height: 400px;
+  max-width: 490px;
+  width: 100%;
+  position: relative;
+
+  span {
+    margin: 16px 32px;
+    cursor: pointer;
+  }
+
+  span:hover {
+    scale: 1.5;
+    animation: hithere 1s infinite;
+  }
+
+  span:nth-child(1) {
+    top: 30%;
+    left: 0;
+  }
+
+  span:nth-child(2) {
+    top: 20%;
+    left: 10%;
+  }
+
+  span:nth-child(3) {
+    top: 40%;
+    left: 60%;
+  }
+
+  span:nth-child(4) {
+    top: 23%;
+    left: 76%;
+  }
+
+  span:nth-child(5) {
+    top: 73%;
+    left: 16%;
+  }
+
+  span:nth-child(6) {
+    top: 63%;
+    left: 56%;
+  }
+
+  span:nth-child(7) {
+    top: 39%;
+    left: 46%;
+  }
+
+  span:nth-child(8) {
+    top: 39%;
+    left: 26%;
+  }
+
+  span:nth-child(9) {
+    top: 59%;
+    left: 26%;
+  }
+}
+
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
