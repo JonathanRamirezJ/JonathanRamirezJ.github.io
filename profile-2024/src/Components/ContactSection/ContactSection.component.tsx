@@ -41,7 +41,7 @@ export default function ContactSection() {
           <p className="mt-12 text-lg leading-8 text-gray-200 px-4">
             Or download my resume for more information
           </p>
-          <div className="text-center">
+          <div className="text-center mb-32">
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a href={Resume} target='_blank' rel="noreferrer" download className='text-white mx-2 hover:text-red-500'>
                 <FontAwesomeIcon icon={faFilePdf} size="xl" className='mx-2'/>
